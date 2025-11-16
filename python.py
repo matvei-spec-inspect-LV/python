@@ -14,4 +14,4 @@ for i in range(5):
     if word in meme_dict.keys():
         print(meme_dict[word])
     else:
-        print('праверьте ваше слова')
+        print('праверьте ваше слова') 
