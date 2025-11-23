@@ -1,0 +1,16 @@
+import random
+
+#символы
+chars = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+# пароль длин
+length = int(input("Введите длину пароля: "))
+
+# пароль
+pasword = ""
+
+# символы для пороль
+for i in range(length):
+    pasword += random.choice(chars)
+
+print("Ваш пароль:", pasword)
